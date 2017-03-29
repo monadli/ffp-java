@@ -20,6 +20,8 @@ import ftc.tuple.TpN;
  * input. Since {@code Void} is uninstantiable, this class as a function always takes null as input
  * to produce output.
  * <p>
+ * This is a special type of functions that takes null and returns something.
+ * <p>
  * Implementation of this interface requires implementation of {@link #Supplier.get()} only.
  * 
  * @param <O> output type
